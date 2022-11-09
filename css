@@ -1,0 +1,19 @@
+<div class="par">
+  <div class="box">A</div>
+  <div class="box">B</div>
+  <div class="box">C</div>
+  <div class="box">D</div>
+</div>
+
+.par{
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box{
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
